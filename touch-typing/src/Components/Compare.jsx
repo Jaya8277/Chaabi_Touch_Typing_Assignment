@@ -149,7 +149,7 @@ const Compare = () => {
   }, []);
 
   const minutes = Math.floor(seconds / 60);
-  const formattedSeconds = seconds % 60;
+  const secondss = seconds % 60;
 
   return (
     <div>
@@ -183,7 +183,7 @@ const Compare = () => {
             fontSize: "20px",
           }}
         >
-          Minutes: {minutes} Seconds: {formattedSeconds}
+          Minutes: {minutes} Seconds: {secondss}
           {seconds === 0 && (
             <Button
               variant="outlined"
