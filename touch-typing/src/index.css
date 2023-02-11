@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+*{
+  /* background: white; */
+  font-size: 16px;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 code {
